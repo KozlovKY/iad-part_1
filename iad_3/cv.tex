@@ -1,0 +1,89 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.77]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Vladislav}{Temkin}
+%\title{19 years, Russian}                               % optional, remove / comment the line if not wanted
+%\address{Flat 2b, 34 Blessington Street Dublin 7}{D07YF57 Dublin}{Ireland}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{@zlatovladdka}                   % optional, , remove / comment the line if not wanted
+\email{vlad.temkin@gmail.com} 
+\address{\href{https://t.me/zlatovladdka}{@zlatovladdka}}{}                              %  remove / comment the line if not wanted
+
+\begin{document}
+\makecvtitle
+
+\section{Personal Details}
+\cvitemwithcomment{Date of Birth}{19.09.2001}{}
+\cvitemwithcomment{Sex}{Male}{}
+\cvitemwithcomment{Citizenship}{Russian Federation}{}
+
+\section{Education}
+\cventry{2019--Present}{Bachelor}{HSE University, Landau Institute for Theoretical Physics}{Moscow - Russia}{\textit{Theoretical Physics}}{Minor in Bioinformatics, GPA: 9.5/10.0, top-1 Russian University by Forbes 2021} 
+\cventry{2015--2019}{High School}{School №1619}{Moscow - Russia}{\textit{Engineering}}{GPA: 5.0/5.0}
+
+\section{Experience}
+\cventry{2020 September--December}{Academic Assistant}{National Research University – Higher School of Economics}{Moscow - Russia}{}
+{I checked students' solutions for home assignments on linear algebra and helped them understand the course.} 
+\cventry{2021 September--December}{Academic Assistant}{National Research University – Higher School of Economics}{Moscow - Russia}{}
+{The same as in 2020 but calculus instead of linear algebra.}
+\cventry{2020-2021}{Olympiad Organizer}{National Research University – Higher School of Economics}{Moscow - Russia}{}
+{I created set of physics problems for high school juniors for "Vyshaya Proba" olympiad (one of olympiads for high school students) and checked students' solutions.}
+\cventry{November 2019--April 2020}{Math and Physics Teacher, Head of Physics Department}{Impulse}{Moscow - Russia}{}
+{Impulse is a school preparing students for exams and olympiads. In 2019 I taught math and physics to high school students in the context of exams and olympiad preparation. In 2020 I prepared syllabus and home assignments for various physics for high school students courses as the physics department head.} 
+\cventry{2018--2019}{Project Student}{National Research Nuclear University - Moscow Engineering Physics Institute, Department of Plasma Physics}{Moscow - Russia}{}
+{At MEPhI I worked on a project aimed to grow different allotropes of carbon using the CVD method.} 
+\cventry{2017 December--2018 June}{Project Student}{National Research University - Higher School of Economics, Laboratory for Functional Safety of Spacecraft and Systems}{Moscow - Russia}{}
+{I studied the principles of the work of CubeSats.} 
+\cventry{2022 (pending)}{Research Student}{National Research University - Higher School of Economics, Clifford Algebras Research Group}{Moscow - Russia}{}
+{}
+
+\section{Achievements}
+\cvitemwithcomment{2020}{\href{http://theorminimum.itp.ac.ru}{Math-I Theoretical Minimum}}{}
+\cvitemwithcomment{2021}{\href{http://theorminimum.itp.ac.ru}{Mechanics Theoretical Minimum}}{}
+\cvitemwithcomment{2021}{\href{https://mipt.ru/education/chair/theoretical_physics/olymp/}{MIPT Theoretical Physics Olympiad, 3 Degree Diploma}}{}
+\cvitemwithcomment{2021}{\href{http://ipt.info/ru}{International Physicists' Tournament (National Stage), 3 Degree Diploma}}{}
+\cvitemwithcomment{2021}{\href{http://thworldcup.com/home}{International Theoretical Physics Olympiad for Undergraduate Students, 14th rank}}{}
+
+
+\section{Languages}
+\cvitemwithcomment{Russian}{Mothertongue}{}
+\cvitemwithcomment{English}{Fluent, TOEFL iBT 104}{}
+\cvitemwithcomment{Spanish}{Elementary}{}
+
+\section{Computer Skills}
+\cvitemwithcomment{Languages and packages}{Python, C++, Wolfram Mathematica, Julia}{}
+
+
+\section{Extra-Curricular Activities}
+\cvitemwithcomment{Summer Camp}{During summer and winter breaks I work as a mentor at "Liderlife" camp.}{}
+\cvitemwithcomment{Event Management}{I participate in the organization of on- and off-campus events.}{}
+
+\section{Personal Interests}
+\cvitemwithcomment{Music}{I graduated from music school and continue playing musical instruments for fun.}{}
+\cvitemwithcomment{Football}{I played left fullback at Strogino Football Academy when I was at school.}{}
+
+
+\clearpage
+\end{document}
